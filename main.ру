@@ -1,0 +1,14 @@
+tasks = []
+def add_task(title):
+    tasks.append(title)
+        print("Задача добавлена:", title)
+        def show_tasks():
+            if not tasks: 
+                   print("Список задач пуст")
+            else:
+                for task in tasks:  
+                          print(task)
+add_task("Изучить GitHub")
+add_task("Создать репозиторий")
+show_tasks()
+add_task("система контроля")
